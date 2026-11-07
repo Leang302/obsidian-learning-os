@@ -1,0 +1,9 @@
+node_modules/
+main.js
+*.js.map
+.DS_Store
+data.json
+dist/
+*.vault/
+.obsidian-test-vault/
+test-vault/

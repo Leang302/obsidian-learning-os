@@ -1,0 +1,10 @@
+{
+  "id": "learning-os",
+  "name": "Learning OS",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "An AI-powered personal learning OS: roadmaps, lessons, exercises, and a context-aware AI teacher, stored as Markdown in your vault.",
+  "author": "You",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}

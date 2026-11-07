@@ -1,0 +1,25 @@
+{
+  "name": "learning-os",
+  "version": "0.1.0",
+  "description": "AI-powered personal Learning OS for Obsidian: roadmaps, lessons, exercises, and a context-aware AI teacher, all stored in Markdown.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "^1.5.7",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "preact": "^10.22.0",
+    "yaml": "^2.9.1"
+  }
+}
